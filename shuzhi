@@ -1,0 +1,20 @@
+#include "stdio.h"
+void main(){
+int max(int a,int b);
+
+	{if (a>=b)
+ return a;
+	}
+	else
+	{return b;
+	}
+
+    main()
+    int a=1,b=2,c=3,d=4;
+    result1=max(a,b,c,d);
+    result2=max(a,b,c);
+    result=result1+result2;
+    printf("sum=%d\n",result);
+    return 0;
+    
+}
